@@ -1,0 +1,15 @@
+name: SpecTest
+on: push
+jobs:
+  spec test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-dotnet@v3
+        with:
+         dotnet-version: '6.0.x'
+      - uses: actions/cryptic-wizard/run-specflow-tests@v1.3.1
+        with:
+          test-assembly-path: MySpecflowProject/bin/Release/netcoreapp3.1
+          test-assembly-dll: MySpecflowProject.dll
+          output-html: MyTestResults.html

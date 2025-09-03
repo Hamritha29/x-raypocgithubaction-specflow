@@ -13,7 +13,7 @@ dotnet add package SpecFlow.Plus.LivingDocPlugin
 
 [![.NET Core](https://github.com/cryptic-wizard/run-specflow-tests/actions/workflows/dotnetcore.yml/badge.svg)](https://github.com/cryptic-wizard/run-specflow-tests/actions/workflows/dotnetcore.yml)
 
-## Usage 
+## Usage  
 #### Minimal:
 ```yaml
 steps:

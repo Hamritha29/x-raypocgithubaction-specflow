@@ -17,7 +17,7 @@ dotnet add package SpecFlow.Plus.LivingDocPlugin
 #### Minimal:
 ```yaml
 steps:
-- uses: actions/checkout@v2
+- uses: actions/checkout@v2 
 - uses: actions/setup-dotnet@v1
   with:
     dotnet-version: '3.1.x'

@@ -7,7 +7,7 @@ dotnet add package SpecFlow.Plus.LivingDocPlugin
 ```xml 
 <PackageReference Include="SpecFlow.Plus.LivingDocPlugin" Version="3.9.57" />
 ```
-
+ 
 ## Tests
 [![.NET](https://github.com/cryptic-wizard/run-specflow-tests/actions/workflows/dotnet.yml/badge.svg)](https://github.com/cryptic-wizard/run-specflow-tests/actions/workflows/dotnet.yml)
 

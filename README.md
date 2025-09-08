@@ -2,22 +2,22 @@
 * A Github action to run SpecFlow tests and create a [SpecFlow+ LivingDoc](https://specflow.org/tools/living-doc/) artifact
 * SpecFlow projects must have a Package Reference to [SpecFlow.Plus.LivingDocPlugin](https://www.nuget.org/packages/SpecFlow.Plus.LivingDocPlugin/) in the [.csproj](https://github.com/cryptic-wizard/run-specflow-tests/blob/main/RunSpecflowTests/RunSpecflowTests.csproj)
 ```Shell
-dotnet add package SpecFlow.Plus.LivingDocPlugin
-```
-```xml
+dotnet add package SpecFlow.Plus.LivingDocPlugin 
+```   
+```xml 
 <PackageReference Include="SpecFlow.Plus.LivingDocPlugin" Version="3.9.57" />
 ```
-
+ 
 ## Tests
 [![.NET](https://github.com/cryptic-wizard/run-specflow-tests/actions/workflows/dotnet.yml/badge.svg)](https://github.com/cryptic-wizard/run-specflow-tests/actions/workflows/dotnet.yml)
 
 [![.NET Core](https://github.com/cryptic-wizard/run-specflow-tests/actions/workflows/dotnetcore.yml/badge.svg)](https://github.com/cryptic-wizard/run-specflow-tests/actions/workflows/dotnetcore.yml)
 
-## Usage
+## Usage  
 #### Minimal:
 ```yaml
 steps:
-- uses: actions/checkout@v2
+- uses: actions/checkout@v2 
 - uses: actions/setup-dotnet@v1
   with:
     dotnet-version: '3.1.x'

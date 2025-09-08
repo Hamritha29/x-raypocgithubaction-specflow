@@ -9,7 +9,7 @@ pipeline {
         stage('Stage 1') {
             steps {
                 sh """
-                    echo "Running Stage 1"
+                    echo "Running Stage 1" 
                     echo "Application Name: \${APP_NAME}"
                 """
             }

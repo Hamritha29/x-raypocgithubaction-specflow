@@ -16,7 +16,7 @@ pipeline {
                     echo "ghprbTargetBranch: ${env.ghprbTargetBranch}"
                     echo "CHANGE_BRANCH: ${env.CHANGE_BRANCH}"
                     echo "CHANGE_TARGET: ${env.CHANGE_TARGET}"
-                    echo "BRANCH_NAME: ${env.BRANCH_NAME}"
+                    echo "BRANCH_NAME: ${env.BRANCH_NAME}" 
                     
                     // Determine the source branch
                     // def sourceBranch = env.ghprbSourceBranch ?: env.CHANGE_BRANCH ?: env.BRANCH_NAME ?: 'main'
